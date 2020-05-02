@@ -9,10 +9,12 @@
 
 အရင္ဆုံး အ ေနနဲ့  <span style="font-weight:bold"> terminal</span>  ကုိ ဖြင္ ့ျပီ းေအာက္ ျပ ထားတဲ့  ေအာက္ က ေပးထားတဲ ့ <span style="font-weight:bold"> command</span>  ကုိ ရုိက္ပါ။
 
- <div style="background-color:black;color:white; padding:20px;">
+``` <div style="background-color:black;color:white; padding:20px;">
      <span>sudo apt-get update</span><br/>
      <span> apt-get install mysql-server</span>
-</div>
+</div>```
+```
+
 
 
 
@@ -22,9 +24,9 @@ y/n ေမးလာခဲ ့ရင္ y ကုိ ေျဖ ေပးပါ ပ
 
 
 ```
- <div style="background-color:black;color:white; padding:20px;">     
+ ```<div style="background-color:black;color:white; padding:20px;">     
      <span> sudo mysql_secure_installation utility</span>
-</div>
+</div>```
 ```
 
 
@@ -32,9 +34,9 @@ y/n ေမးလာခဲ ့ရင္ y ကုိ ေျဖ ေပးပါ ပ
 
  <span style="font-weight:bold">allow remote access </span>  ကုိ ေျပာျပ ပါမယ္ ၊၊ mysql database ကုိ တျခား machine  က ေန ထိန္းခ်ဳပ္ဖုိူအတြက္ enable လုပ္ေပးဖုိ႕လုိအပ္ပါတယ္။ ေအာက္ က ေပးတဲ့ အတုိင္း ရုိက္လုိက္ပါ၊ 
 
- <div style="background-color:black;color:white; padding:20px;">     
+``` <div style="background-color:black;color:white; padding:20px;">     
      <span> sudo ufw enable</span><br/>
      <span> sudo ufw allow mysql</span>
-</div>
+</div>```
 
 ဒါဆုိရင္  <span style="font-weight:bold">mysql installation  </span>  ျပီးဆုိသြားပါျပီ။
