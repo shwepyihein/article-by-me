@@ -21,11 +21,11 @@ y/n ေမးလာခဲ ့ရင္ y ကုိ ေျဖ ေပးပါ ပ
 ေပးထားတဲ့ command ေတြက  အရင္ဆုံး စက္ထဲ မွာ ရွိတဲ့ software ေတြ ကုိ update လုပ္ ပီး <span style="font-weight:bold"> mysql-sever</span> နဲ့ဆုိငင္တဲ ့လုိအပ္တဲ့ dependenices ကုိ  ကုိ သြင္းတာပါ။ ခုဆုိရင္ install လုပ္ျပီး ျပီ လုိ ေျပာလုိ႔ရပါတယ္ အကုန္လုံးေတာ့ မဟုတ္ ေသးဖူး ေပါ့၊ secure ျဖစ္ေအာင္ လုပ္ေပးရ ပါဦးမယ္။ ေအာက္မွာ ေပးထားတဲ့ ကုိ ဆက္ပီး ကူထည့္ပါ၊
 
 
-
+```
  <div style="background-color:black;color:white; padding:20px;">     
      <span> sudo mysql_secure_installation utility</span>
 </div>
-
+```
 
 
 အ ေပၚမွာ ေပးထားတဲ့ ကုိ ရုိက္ ပီး ရင္utillity (setup လုပ္ဖုိ႕လုပ္ ေပးတဲ့ အရာ tools)ကုိ    secure ျဖစ္ေအာင္ လုပ္ ေပးမဲ့   <span style="font-weight:bold">root password  နဲ႔  root user </span> ကုိ configure လုပ္ ဖုိ႕ အတြက္ launch လုပ္ ေပး တာပါ၊ေနာက္  အ ေန နဲ့ 
