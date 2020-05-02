@@ -30,3 +30,11 @@ y/n ေမးလာခဲ ့ရင္ y ကုိ ေျဖ ေပးပါ ပ
 
 အ ေပၚမွာ ေပးထားတဲ့ ကုိ ရုိက္ ပီး ရင္utillity (setup လုပ္ဖုိ႕လုပ္ ေပးတဲ့ အရာ tools)ကုိ    secure ျဖစ္ေအာင္ လုပ္ ေပးမဲ့   <span style="font-weight:bold">root password  နဲ႔  root user </span> ကုိ configure လုပ္ ဖုိ႕ အတြက္ launch လုပ္ ေပး တာပါ၊ေနာက္  အ ေန နဲ့ 
 
+ <span style="font-weight:bold">allow remote access </span>  ကုိ ေျပာျပ ပါမယ္ ၊၊ mysql database ကုိ တျခား machine  က ေန ထိန္းခ်ဳပ္ဖုိူအတြက္ enable လုပ္ေပးဖုိ႕လုိအပ္ပါတယ္။ ေအာက္ က ေပးတဲ့ အတုိင္း ရုိက္လုိက္ပါ၊ 
+
+ <div style="background-color:black;color:white; padding:20px;">     
+     <span> sudo ufw enable</span><br/>
+     <span> sudo ufw allow mysql</span>
+</div>
+
+ဒါဆုိရင္  <span style="font-weight:bold">mysql installation  </span>  ျပီးဆုိသြားပါျပီ။
